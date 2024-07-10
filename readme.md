@@ -25,7 +25,6 @@ Ensure you have the following installed:
 
 - Node.js (v14.x or later)
 - npm (Node Package Manager) or yarn
-- MongoDB (or another database) installed and running locally or accessible remotely
 
 ### Installation
 
@@ -43,7 +42,6 @@ npm install
   
 **3. Configuration**
 PORT=8083 or local 3003
-MONGODB_URI=mongodb://localhost:27017/orderdb
 
   ```bash
 npm start or node index.js
