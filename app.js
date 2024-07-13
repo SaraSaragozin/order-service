@@ -8,5 +8,5 @@ app.use('/orders', orderRoutes);
 
 app.listen(PORT, () => {
     console.log(`Order service listening at http://localhost:${PORT}`);
-});
+}); 
   
